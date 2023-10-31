@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "fonts.css";
+@import "header.css";
+@import "main.css";
+@import "lines.css";
+@import "image.css";
+@import "style.css";
+@import "media.css";
+@import "font-awesome.css";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Forum&family=Kurale&family=Roboto+Slab&display=swap");
+
+body {
+  background-color: #d5f4a1;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,56 @@
+
+@media screen and (width > 1px){
+
+.dws-menu [type="checkbox"]{
+    display: none;
+      
+}
+.dws-menu label.toggleMenu{
+    background: #402b1f;
+    display: block;
+    cursor: pointer;
+    font-style: 14px;
+    text-transform: uppercase;
+    color: #ffffff;   
+    
+}/*не надо*/
+   
+img.logo {
+    width: 120px;
+    height: 35px;
+    /*отступ*/
+    /*padding-top: 10px;*/
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+header {
+    max-width: 100%;
+    background: #402b1f;
+    height: 40px;
+    
+    box-sizing: border-box;
+}
+
+input.toggleMenu:checked + label.toggleMenu{
+    background-color: #127ebc;
+    color: #ffffff;
+
+    
+}/*не надо*/
+.nav-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  /*div.nav-list {
+    padding-right: 60px;
+    color: white;
+    padding-top: 25px;
+}*/
+input.toggleMenu:checked {
+    padding: 0 0 0 0;;
+}
+}
